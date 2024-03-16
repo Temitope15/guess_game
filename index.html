@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1><span id="userName"></span> Welcome to my Guessing game!</h1>
+    <div class="parent-div">
+        <h2 id="para">Can you guess the correct number between 1 and 10?</h2>
+        <div class="card">
+            <label for="guessed_number" id="guessed_number_parent"><input type="text" name="guessed_number" id="guessed_number"></label>
+            <button type="button" id="btn">Try my luck</button>
+            <button type="button" id="refresh" onclick=refresh()>Try again</button>
+        </div>
+    </div>
+    <script defer src="index.js"></script>
+</body>
+</html>
